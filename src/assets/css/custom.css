@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Koulen&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Koulen&family=Permanent+Marker&display=swap");
+#bannerImg {
+    background-image: url("/images/bg/bg-image-21.jpg");
+    background-image: fill;
+    object-fit: cover;
+}
+.parallax {
+    /* The image used */
+    background-image: url("/images/bg/bg-image-1.jpg");
+
+    /* Set a specific height */
+    min-height: 40vh;
+    display: block;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section-container {
+    width: 100vw;
+    height: 70vh;
+    padding: 10vh 20px 100px 20px;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+.profile-container {
+    width: 100vw;
+    height: auto;
+    padding: 10vh 20px 100px 20px;
+    display: block;
+    flex-wrap: wrap;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+.dog-container {
+    align-content: flex-end;
+    align-items: flex-end;
+}
+
+.customFont {
+    font-family: "Koulen", cursive;
+}
+.customTitleFont {
+    font-family: "Permanent Marker", cursive;
+    text-shadow: -1px 2px 2px black;
+}
+.customTitleStyle {
+    font-family: "Permanent Marker", cursive;
+    text-shadow: -1px 2px 0px yellow;
+    font-size: 3.5rem;
+}
+.btn-a,
+.btn-b {
+    border: 1px solid yellow;
+}
+.btn-a,
+.btn-b:hover {
+    background-color: aliceblue;
+    color: black;
+}
+.btn-a:hover {
+    background-color: var(--primary-alta);
+    color: white;
+}
+.btn-b {
+    color: white;
+    background-color: none;
+}
+.horizontal {
+    display: inline-block;
+    margin-top: 2.5rem;
+    width: 100px;
+    text-align: center;
+    height: 3px;
+    color: yellow;
+    opacity: 1;
+}
+.shadow {
+    position: absolute;
+    font-size: 90pt;
+    color: black;
+    opacity: 0.2;
+    top: 5px;
+    left: 400px;
+    z-index: -1;
+}
+
+.inner {
+    display: inline-block;
+    letter-spacing: -4px;
+    vertical-align: top;
+    margin: 30px 110px;
+    line-height: 60px;
+    color: skyblue;
+    font-size: 0;
+}
+
+.inner span:first-child {
+    color: pink;
+}
+
+.inner span {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    letter-spacing: 0;
+    font-size: 5.5rem;
+}
+
+.inner span:before {
+    content: attr(data-title);
+    transform-origin: 0 100%;
+    transform: scale(3);
+    position: absolute;
+    opacity: 0.3;
+    bottom: -8px;
+    z-index: -1;
+    left: 0;
+}
+
+.inner span + span:before {
+    left: 22px;
+}
+
+.dogs-info {
+    list-style-type: none;
+    padding-left: 0;
+}
+.dogs-info-link {
+    font-size: 2rem;
+}
+.float-l {
+    float: left !important;
+}
+.banner-desc {
+    font-size: 1.5rem;
+    max-height: inherit;
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+}

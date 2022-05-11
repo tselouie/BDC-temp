@@ -1,0 +1,53 @@
+{
+    "title": "Bad Dogs Company",
+    "collections": [
+        {
+            "id": 1,
+            "title": "Bad Dogs",
+            "description": "The naughtiest collection of them all.",
+            "image": {
+                "src": "/images/banner/banner-sm-01.jpg"
+            }
+        },
+        {
+            "id": 2,
+            "title": "Wild Dogs",
+            "description": "You wouldn't want to mess with these fellas",
+            "image": {
+                "src": "/images/banner/banner-sm-01.jpg"
+            }
+        },
+        {
+            "id": 3,
+            "title": "Okay Dogs",
+            "description": "Pet them if you'd like, see what happens.",
+            "image": {
+                "src": "/images/banner/banner-sm-01.jpg"
+            }
+        },
+        {
+            "id": 4,
+            "title": "Foul Dogs",
+            "description": "Eek! they reek!",
+            "image": {
+                "src": "/images/banner/banner-sm-01.jpg"
+            }
+        },
+        {
+            "id": 5,
+            "title": "Fat Dogs",
+            "description": "A little too much, a little too late.",
+            "image": {
+                "src": "/images/banner/banner-sm-01.jpg"
+            }
+        },
+        {
+            "id": 6,
+            "title": "Wheezing Dogs",
+            "description": "Don't catch em or you know..",
+            "image": {
+                "src": "/images/banner/banner-sm-01.jpg"
+            }
+        }
+    ]
+}
